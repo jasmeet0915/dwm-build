@@ -35,6 +35,7 @@ dist: clean
 	tar -cf dwm-${VERSION}.tar dwm-${VERSION}
 	gzip dwm-${VERSION}.tar
 	rm -rf dwm-${VERSION}
+	rm -rf config.h
 
 install: all
 	mkdir -p ${DESTDIR}${PREFIX}/bin
