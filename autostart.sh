@@ -1,2 +1,3 @@
 setwall &
 picom &
+notification-daemon &
