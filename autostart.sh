@@ -1,0 +1,2 @@
+setwall &
+picom &
